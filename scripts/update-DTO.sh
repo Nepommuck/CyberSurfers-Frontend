@@ -22,7 +22,7 @@ rm -r "$LOCAL_DTO_PATH"
 echo "Cloning $BRANCH_NAME branch from DTO repository"
 mkdir "$TMP_PATH"
 cd "$TMP_PATH" || exit
-git clone --branch "$BRANCH_NAME" https://github.com/Nepommuck/SusGameDTO.git
+git clone --branch "$BRANCH_NAME" https://github.com/Nepommuck/CyberSurfers-DTO.git
 
 echo "Copying cloned files"
 mkdir "$LOCAL_DTO_PATH"
